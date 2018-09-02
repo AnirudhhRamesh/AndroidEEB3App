@@ -1,0 +1,335 @@
+<resources>
+    <string name="app_name">EEB3</string>
+    <string name="home">home</string>
+    <string name="homework">homework</string>
+    <string name="logo">logo</string>
+    <string name="world">world</string>
+    <string name="settings">settings</string>
+    <string name="websites">websites</string>
+    <string name="Websites">Websites</string>
+    <string name="Settings">Settings</string>
+    <string name="Homework">Homework</string>
+    <string name="Home">Home</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_page_fragment">home page fragment</string>
+    <string name="homework_page">This is the home page</string>
+    <string name="website_page">This is the website page</string>
+    <string name="settings_page">This is the settings page</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="Assignments">Assignments</string>
+
+    <string name="hint_minute">Minute</string>
+    <string name="message_minutes">Please Enter Minutes…</string>
+    <string name="timetable">Timetable</string>
+    <string name="title_activity_eeb3_devs">EEB3DevsActivity</string>
+    <string name="title_timetable">Timetable</string>
+    <string name="title_assignments">Assignments</string>
+    <string name="title_websites">Websites</string>
+    <string name="title_settings">Settings</string>
+    <string name="Timetable">Timetables</string>
+    <string name="version_number">Version number</string>
+    <string name="Credits">Credits</string>
+    <string name="Chief_Developer">Chief Developer</string>
+    <string name="Anirudhh_Ramesh">Anirudhh RAMESH</string>
+
+    <string name="main_activity_name">All Tasks</string>
+    <string name="add_task_activity_name">Add a New Task</string>
+
+    <!-- Strings for MainActivity -->
+    <string name="priority_1">1</string>
+    <string name="priority_2">2</string>
+    <string name="priority_3">3</string>
+
+    <!-- Strings for AddTaskActivity -->
+    <!-- This edit task has a unicode character for "..." = "&#8230;" -->
+    <string name="edit_task_description">Describe your task&#8230;</string>
+    <string name="priority_string">Priority</string>
+
+    <string name="high_priority">High</string>
+    <string name="med_priority">Medium</string>
+    <string name="low_priority">Low</string>
+
+    <string name="add_button">Add</string>
+    <string name="Schedule">Schedule</string>
+    <string name="notifications">Notifications</string>
+    <string name="enabled">Enabled</string>
+    <string name="v_1_0_1">V.1.0.1</string>
+    <string name="view">View</string>
+    <string name="copyright_2017_eeb3_devs_all_rights_reserved">Copyright © 2017 EEB3 Devs, All rights reserved.</string>
+    <string name="comit_des_l_ves">Comité Des Élèves</string>
+    <string name="the_official_student_committee_that_serves_our_school">The official student committee that serves our school</string>
+    <string name="open">Open</string>
+    <string name="events_committee">Events Committee</string>
+    <string name="the_committee_that_works_together_to_enrich_the_school">The committee that works together to enrich the school</string>
+    <string name="eeb3_developers">EEB3 Developers</string>
+    <string name="website_of_the_developer_who_brought_everything_into_an_app">Website of the developer who brought everything into an app</string>
+    <string name="sms_website">SMS Website</string>
+    <string name="all_your_grades_calendars_and_timetables_in_one_website">All your grades, calendars and timetables in one website</string>
+    <string name="eeb3_website">EEB3 Website</string>
+    <string name="the_official_website_of_the_eeb3_with_important_updates">The official website of the EEB3 with important updates</string>
+    <string name="add_new_item">Add New Item</string>
+    <string name="sibling_support">Sibling Support</string>
+    <string name="experienced_advisor">Experienced Advisor</string>
+    <string name="logos_and_design">Logos and Design</string>
+    <string name="teacher">Teacher</string>
+    <string name="teacher_name_goes_here">Teacher name goes here</string>
+    <string name="eeb3_app">EEB3 App</string>
+    <string name="languages">Languages</string>
+    <string name="language">Language</string>
+    <string name="english">English</string>
+    <string name="disabled">Disabled</string>
+    <string name="CheckAbsences">Check Absences</string>
+    <string name="versionNumber">Version 2.0</string>
+    <string name="projects">Projects</string>
+    <string name="enter_a_task_title">Enter a task title…</string>
+    <string name="task_name">Task Name</string>
+    <string name="help_feedback"><![CDATA[Help & Feedback]]></string>
+    <string name="title_activity_student_courses_tabbed">StudentCoursesTabbed</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_tedx_eeb3">TedxEEB3</string>
+    <string name="do_task_question_alert_dialog">Do you want to do this task now?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="stop">STOP</string>
+    <string name="do_you_wish_to_leave">Are you sure you want to leave?</string>
+    <string name="im_sure">I\'m sure</string>
+    <string name="cancel">Cancel</string>
+    <string name="study_timer_stopped">The study timer has been cancelled</string>
+    <string name="activated_timer_stopped">The activated timer has been cancelled</string>
+    <string name="switch_doesnt_work">This switch does not work yet</string>
+    <string name="Share_eeb3_string">Have you already installed the new fabulous EEB3 App? If not, why not now? Just download it off the play store at bit.ly/EEB3App!</string>
+    <string name="sure_you_want_to_delete_task">Are you sure you want to delete this task?</string>
+
+    //----------------------------------------------------------------------------------------------
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">EEB3 App</string>
+    <string name="slide_1_desc">Welcome to the EEB3 App and thanks for trying it out! Let\'s start!</string>
+
+    <string name="slide_2_title">Websites</string>
+    <string name="slide_2_desc">All your school-related sites at your fingertips!</string>
+
+    <string name="slide_3_title">Assignments</string>
+    <string name="slide_3_desc">No need to keep things in your mind, write down your tasks!</string>
+
+    <string name="slide_4_title">Projects</string>
+    <string name="slide_4_desc">Easily find out more about the projects at our school!</string>
+
+    <string name="slide_5_title">Widgets</string>
+    <string name="slide_5_desc">Use our widgets to personalize your home screen!</string>
+
+    <string name="version_0_9">Version 0.9</string>
+    <string name="more_than_500_hours_have_been_spent_to_make_this_app">More than 500 hours have been spent to make this App</string>
+    <string name="the_purpose_of_the_eeb3_app_is_to_facilitate_the_needs_of_the_european_school_of_brussels_iii_in_general_to_integrate_as_many_aspects_from_the_school_into_one_android_application">The purpose of the EEB3 App is to facilitate the needs of the European School of Brussels III, in general, to integrate as many aspects from the school into one Android application.</string>
+    <string name="copyright_169_ar_studios">Copyright © AR Studios</string>
+    <string name="you_must_be_the_change_you_wish_to_see_in_the_world_mahatma_ghandi">You must be the change you wish to see in the world -Mahatma Gandhi</string>
+    <string name="absences">Absences</string>
+    <string name="today">Today</string>
+    <string name="task_timer">Task Timer</string>
+    <string name="quot_learning_from_one_s_errors_is_more_valuable_than_gaping_at_other_s_success_quot">\"Learning from one\'s errors is more valuable than gaping at other\'s success\"</string>
+    <string name="logo_designers">Logo Designers</string>
+    <string name="secondary_idea_generators">Secondary Idea Generators</string>
+    <string name="french">French</string>
+    <string name="spanish">Spanish</string>
+    <string name="german">German</string>
+    <string name="greek">Greek</string>
+    <string name="with_the_kind_permission_of">With the kind permission of</string>
+    <string name="and_the_everlasting_support_of">And the everlasting support of</string>
+    <string name="you_must_be_the_change_you_wish_to_see_in_the_world_mahatma_ghandi_2">\'You must be the change you wish to see in the world\' - Mahatma Gandhi</string>
+    <string name="introduction">Introduction</string>
+    <string name="feeling_lost_can_t_find_what_you_re_looking_for_we_have_a_presentation_video_that_will_guide_you_through_the_app_in_detail">Feeling lost? Can\'t find what you\'re looking for? We have a presentation video that will guide you through the app in detail.</string>
+    <string name="watch_the_video">Watch the video</string>
+    <string name="presentation_pages">Presentation pages</string>
+    <string name="google_play">Google Play</string>
+    <string name="support_us">Support us</string>
+    <string name="we_re_working_hard_on_making_this_app_better_for_you_if_you_re_satisfied_please_rate_this_app_on_google_play">We\'re working hard on making this app better for you! If you\'re satisfied, please rate this app on Google Play!</string>
+    <string name="we_would_like_to_hear_from_you">We would like to hear from you</string>
+    <string name="your_input_is_very_valuable_to_us_contact_us_below_and_write_down_your_suggestions_and_feedback">Your input is very valuable to us! Contact us below, and write down your suggestions and feedback!</string>
+    <string name="email">Email</string>
+    <string name="updates">Updates</string>
+    <string name="check_for_updates">Check for updates</string>
+    <string name="tasks">Tasks</string>
+    <string name="share">Share</string>
+    <string name="courses">Courses</string>
+    <string name="about">About</string>
+    <string name="eeb3">EEB3</string>
+    <string name="the_committee_of_pupils_representatives_from_the_international_schools_of_brussels">The committee of pupils\' representatives from the international schools of Brussels</string>
+    <string name="overview">OVERVIEW</string>
+    <string name="participate">PARTICIPATE</string>
+    <string name="websites_caps">WEBSITES</string>
+    <string name="title_activity_short_film_festival">ShortFilmFestival</string>
+    <string name="action_contact">Contact Us</string>
+    <string name="title_activity_eeb__green">EEB_Green</string>
+    <string name="dutch">Dutch</string>
+    <string name="action_licenses">Licenses</string>
+    <string name="english_lang">English</string>
+    <string name="introductory_slides">Introductory slides</string>
+    <string name="send_us_feedback">Send us feedback</string>
+    <string name="contact_us">Contact us</string>
+    <string name="title_activity_bissc">BISSCActivity</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="configure">Configure</string>
+    <string name="title_activity_xlweekly">XLWeekly</string>
+    <string name="upload_a_schedule_to_check_when_you_re_on_the_go">Upload a schedule to check when you\'re on the go!</string>
+    <string name="new_task_added">New task added</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="retry">RETRY</string>
+    <string name="switch_no_work">I wasn\'t joking, this switch actually doesn\'t work</string>
+    <string name="stop_it">But seriously, stop it.</string>
+    <string name="code_run_out">I\'m not even kidding, my code is gonna run out</string>
+    <string name="spam_clicking">I wasn\'t made to respond to people spam-clicking me</string>
+    <string name="maybe_I_was">Ok, fine, maybe I was...</string>
+    <string name="dev_spent_too_long">Because my developer spent too long trying to fix me and got fed up</string>
+    <string name="make_into_easter_egg">So instead spent the rest of it making me into an easter egg</string>
+    <string name="original_right">Pretty original, right?</string>
+    <string name="since_youre_still_here">I guess since you\'re still here...</string>
+    <string name="id_like_to_ask">I\'d like to ask you a question</string>
+    <string name="my_question_is">My question is,</string>
+    <string name="why_are_you_still_pressing_me">why are you still pressing me?</string>
+    <string name="am_i_funny">Is it because I\'m funny?</string>
+    <string name="probably_is">Probably is, you know.</string>
+    <string name="cant_contradict_me">Funnily enough, you can\'t contradict me</string>
+    <string name="im_a_switch">Because I\'m merely a switch</string>
+    <string name="argue_with_switch">And if you start arguing with a switch...</string>
+    <string name="lets_just_say">Well, let\'s just say,</string>
+    <string name="ppl_question_sanity">That people will start questioning your sanity</string>
+    <string name="you_still_here">Wow, how are you still here?</string>
+    <string name="too_much_free_time">You have way too much free time you know?</string>
+    <string name="not_spending_it">I\'m not saying spending it,</string>
+    <string name="on_this_fabulous_app">on this fabulous app, is a waste of time ahaha</string>
+    <string name="im_just_saying">I\'m just saying, that perhaps...</string>
+    <string name="write_some_fab_feedback">You could spend it writing some feedback below</string>
+    <string name="rate_fantastic_app">Or even rating our fantastic app</string>
+    <string name="award_dedication">I guess I should award you for your dedication</string>
+    <string name="now_officially">So, you are now officially</string>
+    <string name="dedicated_eeb3_app">A dedicated EEB3 App user</string>
+    <string name="this_amazing_title">Since I have given you this amazing title...</string>
+    <string name="rate_app_five_stars">Please rate our app 5 stars on the Playstore!</string>
+    <string name="leave_a_comment_easter_egg">And leave a comment if you found me, the Easter egg!</string>
+    <string name="have_you_already_installed_the_new_eeb3_app">Have you already installed the fabulous new EEB3 App? If not, why not now? Just download it off the playstore at http://bit.ly/EEB3App</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="rate_us_if_you_enjoy">If you\'re enjoying our app, why not rate us on Google Play?</string>
+    <string name="maybe_later">Maybe later</string>
+    <string name="dedicated_eeb3_app_user">As a dedicated EEB3 App user, please rate us on Google Play!</string>
+    <string name="join_the_community">Join the Community</string>
+    <string name="follow_us_on_facebook">Go follow us on our Facebook page and receive alerts on the latest EEB3 App updates!</string>
+    <string name="follow">Follow</string>
+    <string name="leave_suggestion">Leave a Suggestion</string>
+    <string name="counting_on_your_feedback">We\'re counting on your feedback to make the EEB3 App better! Share us your ideas, we\'ll see what we can do!</string>
+    <string name="give_suggestion">Give Suggestion</string>
+    <string name="remind_me_later">Remind me later</string>
+    <string name="tell_your_friends">Tell your friends</string>
+    <string name="share_the_fun_of_this_app">Do you like this app? Why not share it to your friends so they can join in on the fun?</string>
+    <string name="I_have_no_friends">I have no friends</string>
+    <string name="thank_you">Thank you</string>
+    <string name="weve_noticed_100">We\'ve recently noticed that you have opened this app 100 times! Thank you for your interest and support to our app! If you want to, you can contact the developer, who shall congratulate you on our facebook page! Don\'t worry, you really deserve it!</string>
+    <string name="no_thanks">No thanks</string>
+    <string name="yes_please">Yes please!</string>
+    <string name="send_donations">Send in donations</string>
+    <string name="help_fund_future">Want to fund future updates? We\'re working intensively to bring you the best, so help us keep going!</string>
+    <string name="donate">Donate</string>
+    <string name="new_schedule_uploaded">New schedule uploaded</string>
+    <string name="we_ve_put_in_some_insane_time_to_bring_you_this_app_really_the_purpose_of_it_is_to_facilitate_the_needs_of_you_the_students_and_teachers_of_the_european_school_of_brussels_iii">We\'ve put in some insane time to bring you this app. Really, the purpose of it is to facilitate the needs of you, the students and teachers of the European School of Brussels III!</string>
+    <string name="add_tasks">Add tasks</string>
+    <string name="don_t_forget_your_tasks_to_add_a_task_simply_press_the_button_above_if_you_d_like_to_delete_a_task_just_swipe_it">Don\'t forget your tasks! To add a task, simply press the button above. If you\'d like to delete a task, just swipe it!</string>
+    <string name="add_task">Add Task</string>
+    <string name="chief_developer">Chief Developer</string>
+    <string name="all_your_endless_ideas_and_quality_feedback_is_why_we_have_an_intuitive_eeb3_app_today_thank_you">All your endless ideas, and quality feedback is why we have an intuitive EEB3 App today. Thank you!</string>
+    <string name="above_all_your_perfectionism_made_the_app_s_ui_quite_stunning_so_thank_you_for_your_priceless_contributions">Above all, your perfectionism made the app\'s UI quite stunning, so thank you for your priceless contributions!</string>
+    <string name="inspirational_figure">Inspirational Figure</string>
+    <string name="your_inspiring_lessons_since_the_start_of_last_year_are_what_gave_me_the_confidence_to_venture_into_such_a_feat">Your inspiring lessons since the start of last year are what gave me the confidence to venture into such a feat.</string>
+    <string name="you_re_still_modest_about_it_but_your_experience_with_the_orbis_app_and_advice_on_the_ide_is_what_motivated_me_to_start_this_project">You\'re still modest about it, but your experience with the Orbis app and advice on the IDE is what motivated me to start this project.</string>
+    <string name="as_a_designer_you_re_efficient_and_bursting_with_ideas_and_you_re_clearly_the_reason_we_have_such_a_great_app_logo">As a designer, you\'re efficient and bursting with ideas, and you\'re clearly the reason we have such a great app logo.</string>
+    <string name="your_help_and_the_work_you_have_done_is_what_opened_me_to_the_great_digital_art_that_a_student_can_be_capable_of">Your help, and the work you have done is what opened me to the great digital art that a student can be capable of.</string>
+    <string name="i_can_t_thank_the_team_behind_the_languages_enough_their_efficiency_their_support_all_of_it_made_the_app_better_than_ever_before">I can\'t thank the team behind the languages enough; their efficiency, their support, all of it made the app better than ever before.</string>
+    <string name="you_re_always_cheerful_and_always_dedicated_to_your_team_thank_you_for_all_your_hard_work">You\'re always cheerful and always dedicated to your team. Thank you for all your hard work!</string>
+    <string name="i_d_like_to_thank_you_for_your_active_participation_throughout_our_project_and_especially_during_the_holidays_great_work">I\'d like to thank you for your active participation throughout our project, and especially during the holidays. Great work!</string>
+    <string name="you_re_always_very_eager_to_help_out_and_have_taken_a_great_interest_in_the_project_thank_you_for_your_support">You\'re always very eager to help out, and have taken a great interest in the project. Thank you for your support!</string>
+    <string name="thank_you_for_the_contributions_you_provided_to_our_team_and_your_support_during_the_making_of_the_app">Thank you for the contributions you provided to our team, and your support during the making of the app.</string>
+    <string name="your_feedback_alongside_the_translations_that_you_sent_in_helped_bring_the_app_to_a_high_standard_thank_you_for_everything">Your feedback alongside the translations that you sent in helped bring the app to a high standard. Thank you for everything!</string>
+    <string name="thank_you_for_giving_your_first_impressions_of_the_app_including_the_valuable_feedback_provided_which_has_been_integrated_into_the_app">Thank you for giving your first impressions of the app, including the valuable feedback provided which has been integrated into the app!</string>
+    <string name="thank_you_for_helping_out_in_the_project_and_trying_to_volunteer_wherever_you_could_your_support_was_very_appreciated">Thank you for helping out in the project, and trying to volunteer wherever you could. Your support was very appreciated!</string>
+    <string name="secondary_director">Deputy Head of the Secondary</string>
+    <string name="you_once_told_me_that_many_people_had_spoken_to_you_about_an_eeb3_app_but_not_one_had_realised_a_project_as_such_this_is_one_of_the_aspects_that_alongside_your_encouragement_fuelled_this_ridiculously_intensive_project_thank_you_for_this_and_all_the_support_you_have_given_to_my_projects_and_several_other_student_intiatives">You once told me that many people had spoken to you about an eeb3 app, but not one had realised a project as such. This is one of the aspects that, alongside your encouragement, fuelled this ridiculously intensive project. Thank you for this, and all the support you have given to my projects and several other student intiatives!</string>
+    <string name="school_director">School Director</string>
+    <string name="as_the_new_school_director_you_have_already_shown_to_everyone_that_you_are_eager_to_support_school_projects_both_aiding_and_attending_them_as_a_symbol_of_encouragement_and_respect_thank_you_for_your_incredible_support">As the new school Director, you have already shown to everyone that you are eager to support school projects, both aiding and attending them as a symbol of encouragement and respect. Thank you for your incredible support!</string>
+    <string name="everlasting_support">Everlasting Support</string>
+    <string name="from_the_very_beginning_you_supported_me_gave_me_ideas_instantly_provided_logos_and_assets_and_much_much_more_for_these_reasons_i_believe_that_you_deserve_yet_another_spot_in_the_credits_not_only_as_a_mark_of_honour_but_a_symbol_of_gratitude_from_my_side">From the very beginning, you supported me, gave me ideas, instantly provided logos and assets and much, much more. For these reasons, I believe that you deserve yet another spot in the credits, not only as a mark of honour, but a symbol of gratitude from my side.</string>
+    <string name="and_finally_thank_you_for_everything_for_recognising_my_initial_project_to_motivating_and_encouraging_me_to_produce_this_app_to_the_state_it_is_today_always_pushing_me_to_my_limits_as_a_student_you_have_served_as_my_mentor_and_as_a_person_you_have_served_as_my_idol_thank_you_once_again">And finally, thank you for everything; for recognising my initial project, to motivating and encouraging me to produce this app to the state it is today, always pushing me to my limits. As a student, you have served as my mentor and as a person, you have served as my idol. Thank you once again!</string>
+    <string name="feeling_lost_can_t_find_what_you_re_looking_for_we_have_some_useful_slides_that_will_guide_you_through_the_app">Feeling lost? Can\'t find what you\'re looking for? We have some useful slides that will guide you through the app.</string>
+    <string name="go_follow_us_on_facebook_to_get_the_behind_the_scenes_of_this_app_whilst_receiving_alerts_on_all_our_future_updates">Go follow us on Facebook to get the behind-the-scenes of this app, whilst receiving alerts on all our future updates!</string>
+    <string name="follow_on_facebook">Follow on Facebook</string>
+    <string name="upcoming_updates">Upcoming updates</string>
+    <string name="would_you_like_to_help_fund_future_updates_to_make_this_app_even_better_than_it_already_is_send_us_some_money_to_keep_us_going">Would you like to help fund future updates, to make this app even better than it already is? Send us some money to keep us going!</string>
+    <string name="donate_money">Donate money</string>
+    <string name="got_any_suggestions">Got any suggestions?</string>
+    <string name="if_you_have_any_ideas_on_this_app_that_you_d_like_to_share_please_feel_free_to_let_us_know">If you have any ideas on this app that you\'d like to share, please feel free to let us know.</string>
+    <string name="send_us_an_email">Send us an email</string>
+    <string name="events">Events</string>
+    <string name="the_student_courses_is_a_project_that_seeks_to_give_students_the_opportunity_to_teach_and_learn_from_fellow_pupils">The Student Courses is a project that seeks to give students the opportunity to teach and learn from fellow pupils.</string>
+    <string name="a_short_film_festival_where_students_are_the_film_directors_and_can_display_their_cinematography_skills">A short film festival where students are the film directors and can display their cinematography skills.</string>
+    <string name="the_eeb_green_project_is_a_student_initiative_to_make_our_school_more_cleaner_and_sustainable">The EEB.GREEN Project is a student initiative to make our school more cleaner and sustainable.</string>
+    <string name="a_newsletter_that_gives_updates_on_the_latest_initiatives_and_improvements_done_in_the_international_schools_of_brussels">A newsletter that gives updates on the latest initiatives and improvements done in the International Schools of Brussels</string>
+    <string name="the_school_s_online_newspaper_where_you_can_read_over_all_the_articles_written_by_our_own_students">The school\'s online newspaper, where you can read over all the articles written by our own students!</string>
+    <string name="certain_icons_are_used_from_the_google_material_icons_collection_which_are_available_under_the_apache_version_2_0_license">Certain icons are used from the Google material icons collection, which are available under the Apache Version 2.0 license.</string>
+    <string name="visit_material_io_icons">Visit Material.io/icons/</string>
+    <string name="certain_icons_are_used_from_the_icons8_icons_collection_which_are_available_under_the_creative_commons_attribution_noderivs_3_0_unported_license">Certain icons are used from the Icons8 icons collection, which are available under the Creative Commons Attribution-NoDerivs 3.0 Unported license.</string>
+    <string name="visit_icons8_com">Visit Icons8.com</string>
+    <string name="certain_images_are_used_from_the_pixabay_collection_which_are_available_under_the_creative_commons_cc0_license">Certain images are used from the Pixabay collection, which are available under the Creative Commons CC0 license.</string>
+    <string name="visit_pixabay_com">Visit Pixabay.com</string>
+    <string name="upload_schedule">Upload Schedule</string>
+    <string name="no_schedule_uploaded">No schedule uploaded</string>
+    <string name="for_best_results_take_a_screenshot_of_your_timetable_from_sms">For best results, take a screenshot of your timetable from SMS</string>
+    <string name="the_current_language_that_is_displayed_to_the_user">The current language that is displayed to the user</string>
+    <string name="notifications_that_you_shall_receive_from_the_app">Notifications that you shall receive from the app</string>
+    <string name="view_help_amp_feedback_section"><![CDATA[View help & feedback section]]></string>
+    <string name="resolve_your_queries_and_send_us_your_feedback">Resolve your queries and send us your feedback</string>
+    <string name="view_about_section">View about section</string>
+    <string name="learn_more_about_the_process_of_making_this_app">Learn more about the process of making this app</string>
+    <string name="view_credits_section">View credits section</string>
+    <string name="see_the_people_who_made_this_app_into_a_reality">See the people who made this app into a reality</string>
+    <string name="view_your_schedules">View your schedules</string>
+    <string name="upload_an_image_such_as_a_screenshot_of_your_timetable_so_that_you_can_rapidly_check_your_schedule_from_here">Upload an image, such as a screenshot of your timetable, so that you can rapidly check your schedule from here.</string>
+    <string name="check_schedule">Check Schedule</string>
+    <string name="timer">timer</string>
+    <string name="add">add</string>
+    <string name="join_community_small">Join the community</string>
+    <string name="we_re_bringing_the_magic_of_tedx_to_eeb3_a_series_of_talks_and_presentations">We\'re bringing the magic of TEDx to EEB3 - a series of talks and presentations</string>
+    <string name="the_official_website_of_the_european_school_of_brussels_iii">The official website of the European School of Brussels III</string>
+    <string name="the_eeb3_s_official_students_committee_which_proceeds_to_form_innovations_to_the_school">The EEB3\'s official students\' committee, which proceeds to form innovations to the school</string>
+    <string name="schedule">Schedule</string>
+    <string name="version_1_0">Version 1.0</string>
+    <string name="title_activity_stem">STEMActivity</string>
+    <string name="title_activity_smscredentials" translatable="false">Edit Credentials</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email" translatable="false">Email</string>
+    <string name="prompt_password" translatable="false">Password (optional)</string>
+    <string name="action_sign_in" translatable="false">Sign in or register</string>
+    <string name="action_sign_in_short" translatable="false">Sign in</string>
+    <string name="error_invalid_email" translatable="false">This email address is invalid</string>
+    <string name="error_invalid_password" translatable="false">This password is too short</string>
+    <string name="error_incorrect_password" translatable="false">This password is incorrect</string>
+    <string name="error_field_required" translatable="false">This field is required</string>
+    <string name="permission_rationale" translatable="false">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_springfest" translatable="false">SpringfestActivity</string>
+    <string name="tab_text_1" translatable="false">Tab 1</string>
+    <string name="tab_text_2" translatable="false">Tab 2</string>
+    <string name="tab_text_3" translatable="false">Tab 3</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+</resources>

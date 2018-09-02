@@ -1,0 +1,71 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="RedTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/materialRed</item>
+        <item name="colorPrimaryDark">@color/materialRed</item>
+        <item name="colorAccent">@color/materialRed</item>
+    </style>
+
+    <style name="WhiteRadioButton" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="colorControlActivated">@android:color/white</item>
+    </style>
+
+    <style name="BottomNavigationView">
+        <item name="android:textSize">@dimen/design_bottom_navigation_text_size</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+
+    <style name="ToolbarStyle" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorControlNormal">@color/White</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.AppBarFilmFest" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorPrimary">@color/black</item>
+    </style>
+
+    <style name="AppTheme.AppBarTedx" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorPrimary">@color/tedx</item>
+    </style>
+
+    <style name="AppTheme.AppBarBISSC" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorPrimary">@color/black</item>
+    </style>
+
+    <style name="AppTheme.AppBarXLWeekly" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorPrimary">@color/xlweekly</item>
+    </style>
+
+    <style name="AppTheme.AppBarLicense" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.AppBarGreen" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorPrimary">@color/green</item>
+    </style>
+
+    <style name="AppTheme.STEM" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorPrimary">@color/stem</item>
+    </style>
+
+    <style name="AppTheme.AppBarSpringfest" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorPrimary">@color/springfest</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

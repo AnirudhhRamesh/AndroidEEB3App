@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/WeeblySC"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <ImageView
+                    android:id="@+id/imageButton860"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:srcCompat="@drawable/header_banner_website" />
+
+                <ImageView
+                    android:id="@+id/imageView861"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/sc_shadow"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.19999999" />
+
+                <TextView
+                    android:id="@+id/textView862"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Student Courses"
+                    android:textAlignment="center"
+                    android:textAppearance="@android:style/TextAppearance.Material.Large"
+                    android:textColor="@android:color/white"
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageButton860"
+                    app:layout_constraintHorizontal_bias="0.506"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.89"
+                    tools:targetApi="lollipop" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="200dp"
+                android:elevation="3dp">
+
+                <ImageView
+                    android:id="@+id/imageView865"
+                    android:layout_width="75dp"
+                    android:layout_height="74dp"
+                    android:scaleType="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ic_publicvsg" />
+
+                <TextView
+                    android:id="@+id/textView866"
+                    android:layout_width="267dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:elevation="0dp"
+                    android:lineSpacingExtra="2sp"
+                    android:text="To join our courses, just go to our Weebly site where you can sign up as a Teacher or Student!"
+                    android:textAlignment="textStart"
+                    android:gravity="start"
+                    android:textAllCaps="false"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.518"
+                    app:layout_constraintLeft_toRightOf="@+id/imageView865" />
+            </android.support.constraint.ConstraintLayout>
+
+            <Button
+                android:id="@+id/scweeblybutton"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="onButtonClick"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/FacebookSC"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/WeeblySC">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <ImageView
+                    android:id="@+id/imageButton830"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:srcCompat="@drawable/mountains_gradient_small" />
+
+                <ImageView
+                    android:id="@+id/imageView831"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/sc_shadow"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.19999999" />
+
+                <TextView
+                    android:id="@+id/textView61"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Student Courses"
+                    android:textAlignment="center"
+                    android:textAppearance="@android:style/TextAppearance.Material.Large"
+                    android:textColor="@android:color/white"
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageButton830"
+                    app:layout_constraintHorizontal_bias="0.506"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.89"
+                    tools:targetApi="lollipop" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="200dp"
+                android:elevation="3dp">
+
+                <ImageView
+                    android:id="@+id/imageView835"
+                    android:layout_width="75dp"
+                    android:layout_height="74dp"
+                    android:scaleType="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ic_facebook" />
+
+                <TextView
+                    android:id="@+id/textView836"
+                    android:layout_width="267dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:elevation="0dp"
+                    android:lineSpacingExtra="2sp"
+                    android:text="Become part of our community! Support our project by liking our Facebook page!"
+                    android:textAlignment="textStart"
+                    android:gravity="start"
+                    android:textAllCaps="false"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.518"
+                    app:layout_constraintLeft_toRightOf="@+id/imageView835" />
+            </android.support.constraint.ConstraintLayout>
+
+            <Button
+                android:id="@+id/scfacebookbutton"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="onButtonClick"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/InstagramSC"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/FacebookSC"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <ImageView
+                    android:id="@+id/imageButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:srcCompat="@drawable/sc_instagram_banner_empty" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/sc_shadow"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.19999999" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Student Courses"
+                    android:textAlignment="center"
+                    android:textAppearance="@android:style/TextAppearance.Material.Large"
+                    android:textColor="@android:color/white"
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageButton3"
+                    app:layout_constraintHorizontal_bias="0.506"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.89"
+                    tools:targetApi="lollipop" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="200dp"
+                android:elevation="3dp">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="75dp"
+                    android:layout_height="74dp"
+                    android:scaleType="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ic_instagram" />
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="267dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:elevation="0dp"
+                    android:lineSpacingExtra="2sp"
+                    android:text="Follow us on Instagram! Get the latest updates on our projects including coverage on our new courses!"
+                    android:textAlignment="textStart"
+                    android:gravity="start"
+                    android:textAllCaps="false"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.518"
+                    app:layout_constraintLeft_toRightOf="@+id/imageView4" />
+            </android.support.constraint.ConstraintLayout>
+
+            <Button
+                android:id="@+id/scinstagrambutton"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="onButtonClick"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp" />
+
+        </android.support.v7.widget.CardView>
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

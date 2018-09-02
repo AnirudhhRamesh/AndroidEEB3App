@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!--
+        This horizontal linear layout displays the description and priority of a task
+        in a single horizontal line
+    -->
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:paddingBottom="50dp"
+            android:paddingTop="50dp">
+            <!-- TextView that displays the description of a task -->
+            <TextView
+                android:id="@+id/taskDescription"
+                style="@style/TextAppearance.AppCompat.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="34dp"
+                android:layout_marginTop="4dp"
+                android:lineSpacingExtra="2sp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textAlignment="viewStart"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="15sp" />
+
+            <!-- An empty view for spacing out the description and priority views -->
+
+            <!-- A priority circle that is colored in programmatically in the adapter code -->
+            <TextView
+                android:id="@+id/priorityTextView"
+                style="@style/TextAppearance.AppCompat.Small"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="top|right"
+                android:background="@drawable/priority_circle"
+                android:elevation="8dp"
+                android:paddingBottom="50dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="0sp" />
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <!-- A gray divider line at the bottom of each task -->
+</LinearLayout>

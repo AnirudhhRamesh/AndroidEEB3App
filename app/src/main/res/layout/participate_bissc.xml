@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            android:id="@+id/cardView9"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Do you want to become a writer?"
+                    android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:targetApi="lollipop" />
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:lineSpacingExtra="2sp"
+                    android:text="Whether you want to write local or global news articles for the BISSC, just send us a message from below!"
+                    android:textAllCaps="false"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView24" />
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/cardView9"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <ImageView
+                    android:id="@+id/imageButton800"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView801"
+                    app:srcCompat="@drawable/grandplace" />
+
+                <ImageView
+                    android:id="@+id/imageView801"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/bissc_final"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageButton800"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.29000002" />
+
+                <TextView
+                    android:id="@+id/textView801"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Writer"
+                    android:textAppearance="@android:style/TextAppearance.Material.Large"
+                    android:textColor="@android:color/white"
+                    android:textSize="40sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageButton800"
+                    app:layout_constraintHorizontal_bias="0.506"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.95"
+                    tools:targetApi="lollipop" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="210dp"
+                android:lineSpacingExtra="2sp"
+                android:paddingBottom="12dp"
+                android:text="We need more talented writers to help us cover more news! Send us an email, and become an official BISSC journalist!"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                tools:layout_editor_absoluteY="273dp" />
+
+            <Button
+                android:id="@+id/studentbutton"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="onButtonClick"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/Teachercardview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView2">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <ImageView
+                    android:id="@+id/imageButton850"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:srcCompat="@drawable/mountains_gradient_small" />
+
+                <ImageView
+                    android:id="@+id/imageView851"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/sc_shadow"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageButton850"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.29000002" />
+
+                <TextView
+                    android:id="@+id/textView852"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Teacher"
+                    android:textAppearance="@android:style/TextAppearance.Material.Large"
+                    android:textColor="@android:color/white"
+                    android:textSize="40sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageButton850"
+                    app:layout_constraintHorizontal_bias="0.506"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.95"
+                    tools:targetApi="lollipop" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <Button
+                android:id="@+id/teacherbutton"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="onButtonClick"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="210dp"
+                android:lineSpacingExtra="2sp"
+                android:paddingBottom="12dp"
+                android:text="Would you rather teach your own course then? Here you can submit the course of your choice, and you'll be able to teach it to your fellow pupils!"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                tools:layout_editor_absoluteY="273dp" />
+
+        </android.support.v7.widget.CardView>
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "673833153584",
+    "firebase_url": "https://ios-eeb3-app.firebaseio.com",
+    "project_id": "ios-eeb3-app",
+    "storage_bucket": "ios-eeb3-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673833153584:android:5bec30dc5856dd17",
+        "android_client_info": {
+          "package_name": "eeb3.anirudhhramesh.com.eeb3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673833153584-a8m2p30nv3fe2frv36lbon3on5vq485f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeYSfnDB-odWdJ4MHfRAlcwYwEAxQOu10"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

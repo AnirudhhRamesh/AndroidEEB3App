@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayoutWidget"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card"
+    android:padding="@dimen/widget_margin">
+
+    <RelativeLayout
+        android:id="@+id/timelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/textView45"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:background="@drawable/card"
+            android:scaleType="centerCrop"
+            android:src="@drawable/eeb3_clear_big"
+            app:layout_constraintDimensionRatio=""
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:srcCompat="@drawable/eeb3_clear_big" />
+
+
+        <TextClock
+            android:id="@+id/Time_clock"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="fill_vertical|center_horizontal"
+            android:elevation="7dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textAppearance="@android:style/TextAppearance.Material.Large"
+            android:textColor="@android:color/white"
+            android:textSize="89sp"
+            tools:targetApi="lollipop" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timelayout"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="6dp"
+        android:elevation="1dp"
+        android:scaleType="center"
+        android:src="@drawable/ic_eventvsg"
+        android:tint="@color/googlegrey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextClock
+        android:id="@+id/dateclock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_below="@+id/timelayout"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/imageView19"
+        android:elevation="1dp"
+        android:format12Hour="@null"
+        android:format24Hour="EEEE, MMMM dd"
+        android:gravity="bottom|center"
+        android:textAlignment="center"
+        android:textColor="#757575"
+        android:textSize="14sp"
+        tools:layout_conversion_absoluteHeight="26dp"
+        tools:layout_conversion_absoluteWidth="92dp"
+        tools:layout_conversion_absoluteX="24dp"
+        tools:layout_conversion_absoluteY="18dp"
+        tools:targetApi="lollipop" />
+
+</RelativeLayout>

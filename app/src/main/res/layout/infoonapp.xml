@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbartasks"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_weight="1"
+            app:theme="@style/ToolbarStyle"
+            app:title="How was this app made?"
+            app:titleTextColor="@android:color/white" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="57dp">
+
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/gogleicons"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <android.support.constraint.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/white">
+
+                        <ImageView
+                            android:id="@+id/imageView10"
+                            android:layout_width="0dp"
+                            android:layout_height="190dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/keyboard"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginBottom="8dp"
+                            android:tint="@android:color/white"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/ic_codesvg" />
+
+                        <TextView
+                            android:id="@+id/googlematerialicons"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="8dp"
+                            android:text="Android Studio IDE"
+                            android:textAppearance="@android:style/TextAppearance.Material.Large"
+                            android:textColor="@color/colorPrimary"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView10"
+                            tools:layout_conversion_absoluteHeight="26dp"
+                            tools:layout_conversion_absoluteWidth="92dp"
+                            tools:layout_conversion_absoluteX="24dp"
+                            tools:layout_conversion_absoluteY="18dp"
+                            tools:targetApi="lollipop" />
+
+                        <TextView
+                            android:id="@+id/googledescript"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="14dp"
+                            android:autoLink="web"
+                            android:text="The integrated development environment (IDE) used was Android Studio 2.3.2. This software was used to make this app using Java and XML. To download this software, follow the link below!"
+                            android:textAppearance="@android:style/TextAppearance.Material.Small"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/googlematerialicons"
+                            tools:layout_conversion_absoluteHeight="26dp"
+                            tools:layout_conversion_absoluteWidth="92dp"
+                            tools:layout_conversion_absoluteX="24dp"
+                            tools:layout_conversion_absoluteY="18dp"
+                            tools:targetApi="lollipop" />
+
+                        <View
+                            android:id="@+id/view3"
+                            android:layout_width="0dp"
+                            android:layout_height="1dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginTop="6dp"
+                            android:background="@drawable/line"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/googledescript" />
+
+                        <ImageView
+                            android:id="@+id/publicgoogle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="12dp"
+                            android:scaleType="center"
+                            android:tint="@color/googlegrey"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/view3"
+                            app:srcCompat="@drawable/ic_icons8_google" />
+
+                        <TextView
+                            android:id="@+id/visitmaterialio"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="8dp"
+                            android:autoLink="web"
+                            android:text="Visit developer.android.com/studio/"
+                            android:textAppearance="@android:style/TextAppearance.Material.Small"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintLeft_toRightOf="@+id/publicgoogle"
+                            app:layout_constraintTop_toTopOf="@+id/view3"
+                            tools:layout_conversion_absoluteHeight="26dp"
+                            tools:layout_conversion_absoluteWidth="92dp"
+                            tools:layout_conversion_absoluteX="24dp"
+                            tools:layout_conversion_absoluteY="18dp"
+                            tools:targetApi="lollipop" />
+
+
+                    </android.support.constraint.ConstraintLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/btnSelectImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/gogleicons">
+
+                    <android.support.constraint.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/white">
+
+                        <TextView
+                            android:id="@+id/icons8title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="8dp"
+                            android:text="How did the developer learn to make apps?"
+                            android:textAppearance="@android:style/TextAppearance.Material.Large"
+                            android:textColor="@color/colorPrimary"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:layout_conversion_absoluteHeight="26dp"
+                            tools:layout_conversion_absoluteWidth="92dp"
+                            tools:layout_conversion_absoluteX="24dp"
+                            tools:layout_conversion_absoluteY="18dp"
+                            tools:targetApi="lollipop" />
+
+                        <TextView
+                            android:id="@+id/icons8descript"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="8dp"
+                            android:autoLink="web"
+                            android:text="The developer self-taught himself to program and develop android apps, using online tutorials from the internet. Several good tutorials can be found across Youtube.com"
+                            android:textAppearance="@android:style/TextAppearance.Material.Small"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/icons8title"
+                            tools:layout_conversion_absoluteHeight="26dp"
+                            tools:layout_conversion_absoluteWidth="92dp"
+                            tools:layout_conversion_absoluteX="24dp"
+                            tools:layout_conversion_absoluteY="18dp"
+                            tools:targetApi="lollipop" />
+
+                        <View
+                            android:id="@+id/view699"
+                            android:layout_width="0dp"
+                            android:layout_height="1dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginTop="6dp"
+                            android:background="@drawable/line"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/icons8descript" />
+
+                        <ImageView
+                            android:id="@+id/publicicons8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="12dp"
+                            android:scaleType="center"
+                            android:tint="@color/googlegrey"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/view699"
+                            app:srcCompat="@drawable/ic_icons8_youtube" />
+
+                        <TextView
+                            android:id="@+id/visiticons8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="12dp"
+                            android:autoLink="web"
+                            android:text="Visit Youtube.com"
+                            android:textAppearance="@android:style/TextAppearance.Material.Small"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintLeft_toRightOf="@+id/publicicons8"
+                            app:layout_constraintTop_toTopOf="@+id/view699"
+                            tools:layout_conversion_absoluteHeight="26dp"
+                            tools:layout_conversion_absoluteWidth="92dp"
+                            tools:layout_conversion_absoluteX="24dp"
+                            tools:layout_conversion_absoluteY="18dp"
+                            tools:targetApi="lollipop" />
+
+
+                    </android.support.constraint.ConstraintLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/stackoverflow"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingBottom="500dp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/btnSelectImage">
+
+                    <android.support.constraint.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/white">
+
+                        <TextView
+                            android:id="@+id/viewschedule"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="16dp"
+                            android:text="How can I fix compiler errors?"
+                            android:textAppearance="@android:style/TextAppearance.Material.Large"
+                            android:textColor="@color/colorPrimary"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:layout_conversion_absoluteHeight="26dp"
+                            tools:layout_conversion_absoluteWidth="92dp"
+                            tools:layout_conversion_absoluteX="24dp"
+                            tools:layout_conversion_absoluteY="18dp"
+                            tools:targetApi="lollipop" />
+
+                        <TextView
+                            android:id="@+id/scheduledescript"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="8dp"
+                            android:autoLink="web"
+                            android:text="One of the best resources when developing an app is Stackoverflow.com. It's a huge community of experienced developers who can help with solving errors when developing programs and apps."
+                            android:textAppearance="@android:style/TextAppearance.Material.Small"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/viewschedule"
+                            tools:layout_conversion_absoluteHeight="26dp"
+                            tools:layout_conversion_absoluteWidth="92dp"
+                            tools:layout_conversion_absoluteX="24dp"
+                            tools:layout_conversion_absoluteY="18dp"
+                            tools:targetApi="lollipop" />
+
+                        <View
+                            android:id="@+id/view698"
+                            android:layout_width="0dp"
+                            android:layout_height="1dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginTop="6dp"
+                            android:background="@drawable/line"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/scheduledescript" />
+
+                        <ImageView
+                            android:id="@+id/imageView698"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="12dp"
+                            android:scaleType="center"
+                            android:tint="@color/googlegrey"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/view698"
+                            app:srcCompat="@drawable/ic_publicvsg" />
+
+                        <TextView
+                            android:id="@+id/textView698"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="12dp"
+                            android:autoLink="web"
+                            android:text="Visit Stackoverflow.com"
+                            android:textAppearance="@android:style/TextAppearance.Material.Small"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintLeft_toRightOf="@+id/imageView698"
+                            app:layout_constraintTop_toTopOf="@+id/view698"
+                            tools:layout_conversion_absoluteHeight="26dp"
+                            tools:layout_conversion_absoluteWidth="92dp"
+                            tools:layout_conversion_absoluteX="24dp"
+                            tools:layout_conversion_absoluteY="18dp"
+                            tools:targetApi="lollipop"
+                            app:layout_constraintVertical_bias="0.0" />
+
+
+                    </android.support.constraint.ConstraintLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/github2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp">
+
+                    <android.support.constraint.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/white">
+
+                        <TextView
+                            android:id="@+id/howcanIcontribute"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="16dp"
+                            android:text="How can I contribute to this project?"
+                            android:textAppearance="@android:style/TextAppearance.Material.Large"
+                            android:textColor="@color/colorPrimary"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:layout_conversion_absoluteHeight="26dp"
+                            tools:layout_conversion_absoluteWidth="92dp"
+                            tools:layout_conversion_absoluteX="24dp"
+                            tools:layout_conversion_absoluteY="18dp"
+                            tools:targetApi="lollipop" />
+
+                        <TextView
+                            android:id="@+id/contributedescript"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="8dp"
+                            android:autoLink="web"
+                            android:text="This project is open-source, and can be found on Github.com. If you have experience with developing and want to make this app even better, please make sure to visit our page!"
+                            android:textAppearance="@android:style/TextAppearance.Material.Small"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/howcanIcontribute"
+                            tools:layout_conversion_absoluteHeight="26dp"
+                            tools:layout_conversion_absoluteWidth="92dp"
+                            tools:layout_conversion_absoluteX="24dp"
+                            tools:layout_conversion_absoluteY="18dp"
+                            tools:targetApi="lollipop" />
+
+                        <View
+                            android:id="@+id/view798"
+                            android:layout_width="0dp"
+                            android:layout_height="1dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginTop="6dp"
+                            android:background="@drawable/line"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/contributedescript" />
+
+                        <ImageView
+                            android:id="@+id/imageView898"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="12dp"
+                            android:scaleType="center"
+                            android:tint="@color/googlegrey"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/view798"
+                            app:srcCompat="@drawable/ic_icons8_github" />
+
+                        <TextView
+                            android:id="@+id/textView998"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="8dp"
+                            android:autoLink="web"
+                            android:text="Visit Github.com"
+                            android:textAppearance="@android:style/TextAppearance.Material.Small"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintLeft_toRightOf="@+id/imageView898"
+                            app:layout_constraintTop_toTopOf="@+id/view798"
+                            tools:layout_conversion_absoluteHeight="26dp"
+                            tools:layout_conversion_absoluteWidth="92dp"
+                            tools:layout_conversion_absoluteX="24dp"
+                            tools:layout_conversion_absoluteY="18dp"
+                            tools:targetApi="lollipop" />
+
+
+                    </android.support.constraint.ConstraintLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </ScrollView>
+    </android.support.constraint.ConstraintLayout>
+</android.support.design.widget.CoordinatorLayout>

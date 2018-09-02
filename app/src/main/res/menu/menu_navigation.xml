@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item
+            android:id="@+id/timetableItem"
+            android:icon="@drawable/ic_eventvsg"
+            android:title="@string/Schedule"/>
+
+        <item
+            android:id="@+id/homeworkItem"
+            android:icon="@drawable/ic_projectcsg"
+            android:title="@string/projects"/>
+
+         <item
+            android:id="@+id/homeItem"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/Home" />
+
+        <item
+            android:id="@+id/worldItem"
+            android:icon="@drawable/ic_publicvsg"
+            android:title="@string/Websites" />
+
+        <item
+            android:id="@+id/settingsItem"
+            android:icon="@mipmap/ic_settings_black_24dp"
+            android:title="@string/Settings" />
+</menu>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="eeb3.anirudhhramesh.com.eeb3">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/final_launcher_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/final_launcher_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EEB3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".smsjava"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tedxhomepage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ixlweeklyweb"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EEB3Devs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".shortfilmfestweb"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EventsCommittee"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".credits_button"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ComiteEleves"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Home_absences_table"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SCCoursesWeb"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".InfoOnApp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SCTeachersWeb"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".eebgreenweb"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AssignmentsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CountDownTimer_code"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BISSC"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tedxwordpress"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AbsencesWeb"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FeddbackPageActvitiy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Licenses"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ScheduleActivity" />
+        <activity
+            android:name=".scweeblyweb"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddTaskActivity"
+            android:label="Add a New Task"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NotificationDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CountDownTimer"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name=".data.TaskContentProvider"
+            android:authorities="eeb3.anirudhhramesh.com.eeb3"
+            android:exported="false" />
+
+        <activity
+            android:name=".StudentCoursesTabbed"
+            android:label="@string/title_activity_student_courses_tabbed"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".TedxEEB3"
+            android:label="@string/title_activity_tedx_eeb3"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ShortFilmFestival"
+            android:label="@string/title_activity_short_film_festival"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".EEB_Green"
+            android:label="@string/title_activity_eeb__green"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BISSCActivity"
+            android:label="@string/title_activity_bissc"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <receiver
+            android:name=".EEB3AppTimeWidget"
+            android:label="Quick-Access Clock">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/eeb3_app_time_widget_info" />
+        </receiver>
+        <receiver
+            android:name=".EEB3Quicklink"
+            android:label="EEB3 Shortcut">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/eeb3_quicklink_info" />
+        </receiver>
+        <receiver
+            android:name=".EEB3SMSQuicklink"
+            android:label="SMS Shortcut">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/eeb3_smsquicklink_info" />
+        </receiver>
+        <receiver
+            android:name=".EEB3ScheduleWidget"
+            android:label="Schedule Shortcut">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/eeb3_schedule_widget_info" />
+        </receiver>
+        <receiver
+            android:name=".EEB3TasksWidget"
+            android:label="Tasks Shortcut">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/eeb3_tasks_widget_info" />
+        </receiver>
+        <receiver
+            android:name=".EEB3TimerWidget"
+            android:label="Study Timer Shortcut">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/eeb3_timer_widget_info" />
+        </receiver>
+
+        <activity
+            android:name=".XLWeekly"
+            android:label="@string/title_activity_xlweekly"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".STEMActivity"
+            android:label="@string/title_activity_stem"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SMSCredentialsActivity"
+            android:label="@string/title_activity_smscredentials" />
+        <activity
+            android:name=".SpringfestActivity"
+            android:label="@string/title_activity_springfest"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BarcodeReader"
+            android:label="Barcode Reader"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode" />
+
+    </application>
+
+</manifest>

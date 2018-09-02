@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="300dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/rhythmiccard"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:onClick="onButtonClick">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginBottom="8dp"
+                android:paddingTop="45dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toTopOf="@+id/Welcome"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/springfest_pic12" />
+
+            <TextView
+                android:id="@+id/Welcome"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="Apply for rhythmic gymnastics!"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                android:textColor="@color/springfest"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/textView10"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                tools:targetApi="LOLLIPOP" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:autoLink="email"
+                android:lineSpacingExtra="2sp"
+                android:text="Perform rhythmic gymnastics at the OC, simply apply by sending a message to rgspringfest2018@gmail.com"
+                android:textAllCaps="false"
+                android:textColorLink="@color/springfest"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>

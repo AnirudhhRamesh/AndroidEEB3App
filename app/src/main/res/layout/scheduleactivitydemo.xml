@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbartasks"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_weight="1"
+            app:theme="@style/ToolbarStyle"
+            app:title="@string/schedule"
+            app:titleTextColor="@android:color/white" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp">
+
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/btn3SelectImage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:clickable="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+
+                <android.support.design.widget.CoordinatorLayout
+                    android:id="@+id/coordinatorLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <FrameLayout
+                        android:id="@+id/btn6SelectImageFrame"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:onClick="onButtonClick">
+
+
+                        <!-- RecyclerView that is responsible for holding a list of task data -->
+
+                        <!-- Floating action button that launches AddTaskActivity when clicked -->
+                        <android.support.constraint.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/imageView17"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="8dp"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginTop="8dp"
+                                android:scaleType="center"
+                                android:tint="@color/googlegrey"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintLeft_toLeftOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/view3"
+                                app:srcCompat="@drawable/ic_file_upload" />
+
+                            <TextView
+                                android:id="@+id/textView32"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="8dp"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginTop="8dp"
+                                android:text="@string/upload_schedule"
+                                android:textAppearance="@android:style/TextAppearance.Material.Small"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintLeft_toRightOf="@+id/imageView17"
+                                app:layout_constraintTop_toTopOf="@+id/view3"
+                                tools:layout_conversion_absoluteHeight="26dp"
+                                tools:layout_conversion_absoluteWidth="92dp"
+                                tools:layout_conversion_absoluteX="24dp"
+                                tools:layout_conversion_absoluteY="18dp"
+                                tools:targetApi="lollipop" />
+
+                            <TextView
+                                android:id="@+id/textView26"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginEnd="8dp"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="8dp"
+                                android:layout_marginStart="8dp"
+                                android:layout_marginTop="16dp"
+                                android:text="@string/no_schedule_uploaded"
+                                android:textAppearance="@android:style/TextAppearance.Material.Large"
+                                android:textColor="@color/colorPrimary"
+                                app:layout_constraintHorizontal_bias="0.0"
+                                app:layout_constraintLeft_toLeftOf="parent"
+                                app:layout_constraintRight_toRightOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                tools:targetApi="lollipop" />
+
+                            <TextView
+                                android:id="@+id/textView"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginEnd="8dp"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="8dp"
+                                android:layout_marginStart="8dp"
+                                android:layout_marginTop="8dp"
+                                android:text="@string/for_best_results_take_a_screenshot_of_your_timetable_from_sms"
+                                android:textAppearance="@android:style/TextAppearance.Material.Small"
+                                android:textSize="14sp"
+                                app:layout_constraintLeft_toLeftOf="parent"
+                                app:layout_constraintRight_toRightOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/textView26"
+                                tools:targetApi="lollipop" />
+
+                            <View
+                                android:id="@+id/view3"
+                                android:layout_width="0dp"
+                                android:layout_height="1dp"
+                                android:layout_gravity="bottom"
+                                android:layout_marginBottom="8dp"
+                                android:layout_marginTop="0dp"
+                                android:background="@drawable/line"
+                                app:layout_constraintBottom_toBottomOf="@+id/textView32"
+                                app:layout_constraintHorizontal_bias="1.0"
+                                app:layout_constraintLeft_toLeftOf="parent"
+                                app:layout_constraintRight_toRightOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+                        </android.support.constraint.ConstraintLayout>
+
+                    </FrameLayout>
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/imgView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/cardview_light_background"
+                        android:scaleType="center"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+z
+                </android.support.design.widget.CoordinatorLayout>
+            </android.support.v7.widget.CardView>
+
+        </android.support.constraint.ConstraintLayout>
+
+    </ScrollView>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#3F51B5</color>
+    <color name="colorBlue">#3F51B1</color>
+    <color name="colorBackground">#EEEEEE</color>
+    <color name="White">#FFFFFF</color>
+    <color name="BackgroundGray">#FAFAFA</color>
+    <color name="DefaultIconTint">#333333</color>
+
+    <color name="materialRed">#E74C3C</color>
+    <color name="materialOrange">#E67E22</color>
+    <color name="materialYellow">#F1C40F</color>
+
+    <color name="colorPrimaryLight">#C5CAE9</color>
+
+    <color name="black">#000000</color>
+    <color name="scblue">#000455</color>
+    <color name="green">#65ba69</color>
+    <color name="tedx">#d81515</color>
+
+    <color name="googlegrey">#3F51B5</color>
+    //--------------------------------------------------------------------------
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#FFFFFF</color>
+    <color name="bg_screen2">#f64c73</color>
+    <color name="bg_screen3">#1e88e5</color>
+    <color name="bg_screen4">#c873f4</color>
+    <color name="bg_screen5">#f46733</color>
+    <color name="bg_screen6">#65ba69</color>
+
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#283593</color>
+    <color name="dot_dark_screen2">#d1395c</color>
+    <color name="dot_dark_screen3">#005cb2</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+    <color name="dot_dark_screen5">#bb3601</color>
+    <color name="dot_dark_screen6">#32893d</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#9FA8DA</color>
+    <color name="dot_light_screen2">#f98da5</color>
+    <color name="dot_light_screen3">#6ab7ff</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+    <color name="dot_light_screen5">#ff9860</color>
+    <color name="dot_light_screen6">#97ed98</color>
+
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+        <item>@color/dot_light_screen5</item>
+        <item>@color/dot_light_screen6</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+        <item>@color/dot_dark_screen5</item>
+        <item>@color/dot_dark_screen6</item>
+    </array>
+
+    <color name="springfest_dot_dark">#9018ab</color>
+    <color name="springfest_dot_light">#a76fcb</color>
+
+    <array name="array_springfest_active">
+        <item>@color/springfest_dot_light</item>
+        <item>@color/springfest_dot_light</item>
+        <item>@color/springfest_dot_light</item>
+        <item>@color/springfest_dot_light</item>
+        <item>@color/springfest_dot_light</item>
+        <item>@color/springfest_dot_light</item>
+        <item>@color/springfest_dot_light</item>
+        <item>@color/springfest_dot_light</item>
+    </array>
+
+    <array name="array_springfest_inactive">
+        <item>@color/springfest_dot_dark</item>
+        <item>@color/springfest_dot_dark</item>
+        <item>@color/springfest_dot_dark</item>
+        <item>@color/springfest_dot_dark</item>
+        <item>@color/springfest_dot_dark</item>
+        <item>@color/springfest_dot_dark</item>
+        <item>@color/springfest_dot_dark</item>
+        <item>@color/springfest_dot_dark</item>
+    </array>
+
+    <color name="transparent">#00000000</color>
+    <!-- card colors -->
+    <color name="card_background">#ffffff</color>
+    <color name="card_shadow_1">#d4d4d4</color>
+    <color name="card_shadow_2">#dddddd</color>
+    <color name="card_detailing">#eee</color>
+
+    <color name="colorTextPrimary">#FFFFFF</color>
+    <color name="tab_disable">#979797</color>
+    <color name="tab_enable">#FFFFFF</color>
+    <color name="tab_checked">#3F51B5</color>
+    <color name="tab_unchecked">#757575</color>
+
+
+
+
+    <color name="xlweekly">#D86B93</color>
+    <color name="xlweeklydark">#a43b65</color>
+    <color name="stem">#F36F31</color>
+    <color name="springfest">#783393</color>
+</resources>

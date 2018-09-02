@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/languages"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <View
+                        android:id="@+id/view701"
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/line"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView893" />
+
+                    <ImageView
+                        android:id="@+id/imageView702"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="12dp"
+                        android:scaleType="center"
+                        android:tint="@color/googlegrey"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/view701"
+                        app:srcCompat="@drawable/ic_language" />
+
+                    <TextView
+                        android:id="@+id/textView703"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="8dp"
+                        android:autoLink="web"
+                        android:text="@string/english"
+                        android:textAppearance="@android:style/TextAppearance.Material.Small"
+                        android:textSize="14sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toRightOf="@+id/imageView702"
+                        app:layout_constraintTop_toTopOf="@+id/view701"
+                        tools:layout_conversion_absoluteHeight="26dp"
+                        tools:layout_conversion_absoluteWidth="92dp"
+                        tools:layout_conversion_absoluteX="24dp"
+                        tools:layout_conversion_absoluteY="18dp"
+                        tools:targetApi="lollipop" />
+
+                    <TextView
+                        android:id="@+id/textView712"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/languages"
+                        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                        android:textColor="@color/colorPrimary"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:targetApi="lollipop" />
+
+                    <TextView
+                        android:id="@+id/textView893"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="4dp"
+                        android:text="@string/the_current_language_that_is_displayed_to_the_user"
+                        android:textAppearance="@android:style/TextAppearance.Material.Small"
+                        android:textSize="14sp"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView712"
+                        tools:targetApi="lollipop" />
+                </android.support.constraint.ConstraintLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/passwordscredentials"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:clickable="true"
+                android:onClick="onButtonClick"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/languages">
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <View
+                        android:id="@+id/view700"
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/line"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView763" />
+
+                    <ImageView
+                        android:id="@+id/imageView700"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="12dp"
+                        android:scaleType="center"
+                        android:tint="@color/googlegrey"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/view700"
+                        app:srcCompat="@drawable/ic_locksvg" />
+
+                    <TextView
+                        android:id="@+id/textView701"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="8dp"
+                        android:autoLink="web"
+                        android:text="Edit credentials"
+                        android:textAppearance="@android:style/TextAppearance.Material.Small"
+                        android:textSize="14sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toRightOf="@+id/imageView700"
+                        app:layout_constraintTop_toTopOf="@+id/view700"
+                        tools:layout_conversion_absoluteHeight="26dp"
+                        tools:layout_conversion_absoluteWidth="92dp"
+                        tools:layout_conversion_absoluteX="24dp"
+                        tools:layout_conversion_absoluteY="18dp"
+                        tools:targetApi="lollipop" />
+
+                    <TextView
+                        android:id="@+id/textView702"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Passwords"
+                        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                        android:textColor="@color/colorPrimary"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:targetApi="lollipop" />
+
+                    <TextView
+                        android:id="@+id/textView763"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="4dp"
+                        android:text="Edit your locally stored user credentials"
+                        android:textAppearance="@android:style/TextAppearance.Material.Small"
+                        android:textSize="14sp"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView702"
+                        tools:targetApi="lollipop" />
+                </android.support.constraint.ConstraintLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/notifications_setting"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/passwordscredentials">
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <View
+                        android:id="@+id/view6"
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/line"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView711"
+                        android:layout_marginTop="16dp" />
+
+                    <android.support.v7.widget.SwitchCompat
+                        android:id="@+id/list_item_switch2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginRight="13dp"
+                        android:checked="true"
+                        android:onClick="onButtonClick"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/view6"
+                        android:layout_marginTop="8dp"
+                        app:layout_constraintVertical_bias="0.5" />
+
+                    <ImageView
+                        android:id="@+id/imageView712"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="12dp"
+                        android:scaleType="center"
+                        android:tint="@color/googlegrey"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/view6"
+                        app:srcCompat="@drawable/ic_assignment" />
+
+                    <TextView
+                        android:id="@+id/textView713"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"
+                        android:autoLink="web"
+                        android:text="@string/tasks"
+                        android:textAppearance="@android:style/TextAppearance.Material.Small"
+                        android:textSize="14sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toRightOf="@+id/imageView712"
+                        tools:layout_conversion_absoluteHeight="26dp"
+                        tools:layout_conversion_absoluteWidth="92dp"
+                        tools:layout_conversion_absoluteX="24dp"
+                        tools:layout_conversion_absoluteY="18dp"
+                        tools:targetApi="lollipop"
+                        app:layout_constraintTop_toTopOf="@+id/view6"
+                        android:layout_marginTop="8dp" />
+
+                    <TextView
+                        android:id="@+id/textView710"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/notifications"
+                        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                        android:textColor="@color/colorPrimary"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:targetApi="lollipop" />
+
+                    <TextView
+                        android:id="@+id/textView711"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="4dp"
+                        android:text="@string/notifications_that_you_shall_receive_from_the_app"
+                        android:textAppearance="@android:style/TextAppearance.Material.Small"
+                        android:textSize="14sp"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView710"
+                        tools:targetApi="lollipop" />
+                </android.support.constraint.ConstraintLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/helpbutton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:clickable="true"
+                android:onClick="onButtonClick"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/notifications_setting">
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <View
+                        android:id="@+id/view720"
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/line"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView724"
+                        android:layout_marginTop="16dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView721"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="12dp"
+                        android:scaleType="center"
+                        android:tint="@color/googlegrey"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/view720"
+                        app:srcCompat="@drawable/ic_helpsvg" />
+
+                    <TextView
+                        android:id="@+id/textView722"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:autoLink="web"
+                        android:text="@string/view_help_amp_feedback_section"
+                        android:textAppearance="@android:style/TextAppearance.Material.Small"
+                        android:textSize="14sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toRightOf="@+id/imageView721"
+                        app:layout_constraintTop_toTopOf="@+id/view720"
+                        tools:layout_conversion_absoluteHeight="26dp"
+                        tools:layout_conversion_absoluteWidth="92dp"
+                        tools:layout_conversion_absoluteX="24dp"
+                        tools:layout_conversion_absoluteY="18dp"
+                        tools:targetApi="lollipop" />
+
+                    <TextView
+                        android:id="@+id/textView723"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/help_feedback"
+                        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                        android:textColor="@color/colorPrimary"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:targetApi="lollipop" />
+
+                    <TextView
+                        android:id="@+id/textView724"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="4dp"
+                        android:text="@string/resolve_your_queries_and_send_us_your_feedback"
+                        android:textAppearance="@android:style/TextAppearance.Material.Small"
+                        android:textSize="14sp"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView723"
+                        tools:targetApi="lollipop" />
+                </android.support.constraint.ConstraintLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/aboutbutton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:clickable="true"
+                android:onClick="onButtonClick"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/helpbutton">
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <View
+                        android:id="@+id/view730"
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/line"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView734"
+                        android:layout_marginTop="16dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView731"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="12dp"
+                        android:scaleType="center"
+                        android:tint="@color/googlegrey"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/view730"
+                        app:srcCompat="@drawable/ic_infosvg" />
+
+                    <TextView
+                        android:id="@+id/textView732"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:autoLink="web"
+                        android:text="@string/view_about_section"
+                        android:textAppearance="@android:style/TextAppearance.Material.Small"
+                        android:textSize="14sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toRightOf="@+id/imageView731"
+                        app:layout_constraintTop_toTopOf="@+id/view730"
+                        tools:layout_conversion_absoluteHeight="26dp"
+                        tools:layout_conversion_absoluteWidth="92dp"
+                        tools:layout_conversion_absoluteX="24dp"
+                        tools:layout_conversion_absoluteY="18dp"
+                        tools:targetApi="lollipop" />
+
+                    <TextView
+                        android:id="@+id/textView733"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/about"
+                        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                        android:textColor="@color/colorPrimary"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:targetApi="lollipop" />
+
+                    <TextView
+                        android:id="@+id/textView734"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="4dp"
+                        android:text="@string/learn_more_about_the_process_of_making_this_app"
+                        android:textAppearance="@android:style/TextAppearance.Material.Small"
+                        android:textSize="14sp"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView733"
+                        tools:targetApi="lollipop" />
+                </android.support.constraint.ConstraintLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/Creds"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:clickable="true"
+                android:onClick="onButtonClick"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/aboutbutton">
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <View
+                        android:id="@+id/view3"
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/line"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView45"
+                        android:layout_marginTop="16dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="12dp"
+                        android:scaleType="center"
+                        android:tint="@color/googlegrey"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/view3"
+                        app:srcCompat="@drawable/ic_peoplevsg" />
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:autoLink="web"
+                        android:text="@string/view_credits_section"
+                        android:textAppearance="@android:style/TextAppearance.Material.Small"
+                        android:textSize="14sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toRightOf="@+id/imageView17"
+                        app:layout_constraintTop_toTopOf="@+id/view3"
+                        tools:layout_conversion_absoluteHeight="26dp"
+                        tools:layout_conversion_absoluteWidth="92dp"
+                        tools:layout_conversion_absoluteX="24dp"
+                        tools:layout_conversion_absoluteY="18dp"
+                        tools:targetApi="lollipop" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/Credits"
+                        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                        android:textColor="@color/colorPrimary"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:targetApi="lollipop" />
+
+                    <TextView
+                        android:id="@+id/textView45"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="4dp"
+                        android:text="@string/see_the_people_who_made_this_app_into_a_reality"
+                        android:textAppearance="@android:style/TextAppearance.Material.Small"
+                        android:textSize="14sp"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView7"
+                        tools:targetApi="lollipop" />
+                </android.support.constraint.ConstraintLayout>
+            </android.support.v7.widget.CardView>
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

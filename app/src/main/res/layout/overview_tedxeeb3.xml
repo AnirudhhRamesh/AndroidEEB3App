@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="0dp"
+            android:layout_height="204dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/conferencecrowd"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="200dp"
+            android:layout_height="65dp"
+            android:layout_marginBottom="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tedxeeb3white"
+            app:layout_constraintBottom_toTopOf="@+id/view2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <TextView
+            android:id="@+id/textView62"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="122dp"
+            android:text="Student Courses"
+            android:textAppearance="@android:style/TextAppearance.Material.Large"
+            android:textColor="@android:color/white"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/view2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="5dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/shadow"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:id="@+id/view2" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view2"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:id="@+id/cardView6">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/Welcome"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="What is TEDxEEB3?"
+                    android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                    android:textColor="@color/tedx"
+                    android:textStyle="bold"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:lineSpacingExtra="2sp"
+                    android:text="TED's motto is &quot;ideas worth spreading&quot;. We bring that to where it matters - our school. We want to inspire, motivate and prepare you for life."
+                    android:textAllCaps="false"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/Welcome" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="2sp"
+                    android:paddingBottom="8dp"
+                    android:text="You can get involved by helping us organise this awesome project! Hint: it's great for your university application."
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView10" />
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView6"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:id="@+id/cardView7">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="When will this conferernce take place?"
+                    android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                    android:textColor="@color/tedx"
+                    android:textStyle="bold"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:lineSpacingExtra="2sp"
+                    android:text="We still haven't confirmed a date on which this project will begin, but bare with us, we shall soon finalise a day!"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/cardView7"
+            android:id="@+id/cardView8">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Where will the conference be held?"
+                    android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                    android:textColor="@color/tedx"
+                    android:textStyle="bold"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:lineSpacingExtra="2sp"
+                    android:text="The presentations will take place in the theatre, located in the arts building."
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/cardView8"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="4dp">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="How can I participate?"
+                    android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                    android:textColor="@color/tedx"
+                    android:textStyle="bold"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:autoLink="web"
+                    android:lineSpacingExtra="2sp"
+                    android:paddingBottom="8dp"
+                    android:text="You can sign up on our website: http://ec.eeb3.eu/tedx/volunteer "
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView22" />
+            </android.support.constraint.ConstraintLayout>
+        </android.support.v7.widget.CardView>
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

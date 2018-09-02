@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/btnSelectImage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:onClick="onButtonClick"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white">
+
+                <ImageView
+                    android:id="@+id/ScheduleView"
+                    android:layout_width="0dp"
+                    android:layout_height="210dp"
+                    android:paddingLeft="-25dp"
+                    android:paddingRight="-25dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/shadow_calendar"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/scheduleDescript"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:onClick="onButtonClick"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnSelectImage"
+            app:layout_constraintVertical_bias="0.0">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white">
+
+                <TextView
+                    android:id="@+id/viewschedule"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/view_your_schedules"
+                    android:textAppearance="@android:style/TextAppearance.Material.Large"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="22sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_conversion_absoluteHeight="26dp"
+                    tools:layout_conversion_absoluteWidth="92dp"
+                    tools:layout_conversion_absoluteX="24dp"
+                    tools:layout_conversion_absoluteY="18dp"
+                    tools:targetApi="lollipop" />
+
+                <TextView
+                    android:id="@+id/scheduledescript"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/upload_an_image_such_as_a_screenshot_of_your_timetable_so_that_you_can_rapidly_check_your_schedule_from_here"
+                    android:textAppearance="@android:style/TextAppearance.Material.Small"
+                    android:textSize="14sp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/viewschedule"
+                    tools:layout_conversion_absoluteHeight="26dp"
+                    tools:layout_conversion_absoluteWidth="92dp"
+                    tools:layout_conversion_absoluteX="24dp"
+                    tools:layout_conversion_absoluteY="18dp"
+                    tools:targetApi="lollipop" />
+
+                <View
+                    android:id="@+id/view3"
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/line"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/scheduledescript" />
+
+                <ImageView
+                    android:id="@+id/imageView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="12dp"
+                    android:scaleType="center"
+                    android:tint="@color/googlegrey"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/view3"
+                    app:srcCompat="@drawable/ic_eventvsg" />
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/check_schedule"
+                    android:textAppearance="@android:style/TextAppearance.Material.Small"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toRightOf="@+id/imageView17"
+                    app:layout_constraintTop_toTopOf="@+id/view3"
+                    tools:layout_conversion_absoluteHeight="26dp"
+                    tools:layout_conversion_absoluteWidth="92dp"
+                    tools:layout_conversion_absoluteX="24dp"
+                    tools:layout_conversion_absoluteY="18dp"
+                    tools:targetApi="lollipop" />
+
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

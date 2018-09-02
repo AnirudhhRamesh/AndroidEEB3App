@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/buttonSF"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:onClick="onButtonClick"
+            app:cardBackgroundColor="@android:color/white"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/events">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/textView400"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="2dp"
+                    android:text="Springfest"
+                    android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                    android:textColor="@color/springfest"
+                    android:textSize="18sp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toRightOf="@+id/imageView402"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:targetApi="lollipop" />
+
+                <TextView
+                    android:id="@+id/textView401"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="8dp"
+                    android:text="Springfest is our annual school event, where pupils work together to make an awesome festival for everyone."
+                    android:textAppearance="@android:style/TextAppearance.Material.Small"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toRightOf="@+id/imageView402"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView400"
+                    tools:targetApi="lollipop" />
+
+                <ImageView
+                    android:id="@+id/imageView402"
+                    android:layout_width="71dp"
+                    android:layout_height="79dp"
+                    android:layout_marginLeft="4dp"
+                    android:backgroundTint="@color/springfest"
+                    android:scaleType="fitCenter"
+                    android:tint="@color/springfest"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/springfest_logo_jan_2018" />
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:id="@+id/events"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Events"
+            android:textAppearance="@android:style/TextAppearance.Material.Small"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/Newsletters"
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Newsletters"
+            android:textAppearance="@android:style/TextAppearance.Material.Small"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonSF" />
+
+        <TextView
+            android:id="@+id/Competition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Competitions"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonTEDx" />
+
+        <TextView
+            android:id="@+id/Miscellaneous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Miscellaneous"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonXlweekly" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/buttonSC"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:onClick="onButtonClick"
+            app:cardBackgroundColor="@android:color/white"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Miscellaneous">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/textView4001"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="2dp"
+                    android:text="Student Courses"
+                    android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toRightOf="@+id/imageView4021"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:targetApi="lollipop" />
+
+                <TextView
+                    android:id="@+id/textView4011"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="0dp"
+                    android:text="@string/the_student_courses_is_a_project_that_seeks_to_give_students_the_opportunity_to_teach_and_learn_from_fellow_pupils"
+                    android:textAppearance="@android:style/TextAppearance.Material.Small"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toRightOf="@+id/imageView4021"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView4001"
+                    tools:targetApi="lollipop" />
+
+                <ImageView
+                    android:id="@+id/imageView4021"
+                    android:layout_width="71dp"
+                    android:layout_height="79dp"
+                    android:layout_marginLeft="4dp"
+                    android:scaleType="fitEnd"
+                    android:tint="@color/colorPrimary"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ic_scnoshadow" />
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/buttonShortFF"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/white"
+            android:clickable="true"
+            android:onClick="onButtonClick"
+            app:cardBackgroundColor="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Competition"
+            app:layout_constraintVertical_bias="0.0">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/textView404"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="2dp"
+                    android:text="Short Film Festival"
+                    android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toRightOf="@+id/imageView406"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:targetApi="lollipop" />
+
+                <TextView
+                    android:id="@+id/textView405"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="0dp"
+                    android:text="@string/a_short_film_festival_where_students_are_the_film_directors_and_can_display_their_cinematography_skills"
+                    android:textAppearance="@android:style/TextAppearance.Material.Small"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toRightOf="@+id/imageView406"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView404"
+                    tools:targetApi="lollipop" />
+
+                <ImageView
+                    android:id="@+id/imageView406"
+                    android:layout_width="71dp"
+                    android:layout_height="79dp"
+                    android:layout_marginLeft="4dp"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ic_eeb3_short_film_festival_20170714_144519" />
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/buttonGreen"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:onClick="onButtonClick"
+            app:cardBackgroundColor="@android:color/white"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonSC">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView406"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="2dp"
+                    android:text="EEB.GREEN"
+                    android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                    android:textColor="@color/green"
+                    android:textSize="18sp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toRightOf="@+id/imageView408"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:targetApi="lollipop" />
+
+                <TextView
+                    android:id="@+id/textView407"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="0dp"
+                    android:text="@string/the_eeb_green_project_is_a_student_initiative_to_make_our_school_more_cleaner_and_sustainable"
+                    android:textAppearance="@android:style/TextAppearance.Material.Small"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toRightOf="@+id/imageView408"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView406"
+                    app:layout_constraintVertical_bias="0.5"
+                    tools:targetApi="lollipop" />
+
+                <ImageView
+                    android:id="@+id/imageView408"
+                    android:layout_width="71dp"
+                    android:layout_height="79dp"
+                    android:layout_marginLeft="4dp"
+                    android:tint="@color/green"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ic_eebgreen_icon" />
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/buttonBISSC"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:onClick="onButtonClick"
+            app:cardBackgroundColor="@android:color/white"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Newsletters">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView909"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="2dp"
+                    android:text="BISSC NEWS"
+                    android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toRightOf="@+id/imageView911"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:targetApi="lollipop" />
+
+                <TextView
+                    android:id="@+id/textView910"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="0dp"
+                    android:text="@string/a_newsletter_that_gives_updates_on_the_latest_initiatives_and_improvements_done_in_the_international_schools_of_brussels"
+                    android:textAppearance="@android:style/TextAppearance.Material.Small"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toRightOf="@+id/imageView911"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView909"
+                    app:layout_constraintVertical_bias="0.5"
+                    tools:targetApi="lollipop" />
+
+                <ImageView
+                    android:id="@+id/imageView911"
+                    android:layout_width="71dp"
+                    android:layout_height="79dp"
+                    android:layout_marginLeft="4dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/bissc_final" />
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/buttonXlweekly"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:onClick="onButtonClick"
+            app:cardBackgroundColor="@android:color/white"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonBISSC">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView409"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="2dp"
+                    android:text="The XL Weekly"
+                    android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                    android:textColor="@color/xlweekly"
+                    android:textSize="18sp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toRightOf="@+id/imageView411"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:targetApi="lollipop" />
+
+                <TextView
+                    android:id="@+id/textView410"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="0dp"
+                    android:text="@string/the_school_s_online_newspaper_where_you_can_read_over_all_the_articles_written_by_our_own_students"
+                    android:textAppearance="@android:style/TextAppearance.Material.Small"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toRightOf="@+id/imageView411"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView409"
+                    app:layout_constraintVertical_bias="0.5"
+                    tools:targetApi="lollipop" />
+
+                <ImageView
+                    android:id="@+id/imageView411"
+                    android:layout_width="71dp"
+                    android:layout_height="79dp"
+                    android:layout_marginLeft="4dp"
+                    android:src="@drawable/xlweeklysemitransparent"
+                    android:tint="@color/xlweekly"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/buttonTEDx"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:onClick="onButtonClick"
+            app:cardBackgroundColor="@android:color/white"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGreen">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView311"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="2dp"
+                    android:text="TEDxEEB3"
+                    android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                    android:textColor="@color/tedx"
+                    android:textSize="18sp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toRightOf="@+id/imageView211"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:targetApi="lollipop" />
+
+                <TextView
+                    android:id="@+id/textView711"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="0dp"
+                    android:text="@string/we_re_bringing_the_magic_of_tedx_to_eeb3_a_series_of_talks_and_presentations"
+                    android:textAppearance="@android:style/TextAppearance.Material.Small"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toRightOf="@+id/imageView211"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView311"
+                    app:layout_constraintVertical_bias="0.5"
+                    tools:targetApi="lollipop" />
+
+                <ImageView
+                    android:id="@+id/imageView211"
+                    android:layout_width="71dp"
+                    android:layout_height="79dp"
+                    android:layout_marginLeft="4dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/tedxtransparent" />
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/buttonSTEM"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:onClick="onButtonClick"
+            android:visibility="gone"
+            app:cardBackgroundColor="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonShortFF">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="2dp"
+                    android:text="STEM Competitions"
+                    android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                    android:textColor="#F36F31"
+                    android:textSize="18sp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toRightOf="@+id/imageView2"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:targetApi="lollipop" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="0dp"
+                    android:text="Educational competitions based on STEM: Science, Technology, Engineering and Mathemathics disciplines."
+                    android:textAppearance="@android:style/TextAppearance.Material.Small"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toRightOf="@+id/imageView2"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView3"
+                    app:layout_constraintVertical_bias="0.5"
+                    tools:targetApi="lollipop" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="71dp"
+                    android:layout_height="79dp"
+                    android:layout_marginLeft="4dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/stemblank" />
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
